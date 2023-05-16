@@ -1,0 +1,50 @@
+.app-head {
+    background: url("../../../public/img/mainBG.jpeg") center center/cover no-repeat;
+    padding: 30px 0 201px 0;
+    text-align: center;
+}
+.container {
+    max-width: 802px;
+    margin: 0 auto;
+}
+.title {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--title-color, #000);
+    &_24 {
+        font-size: 24px;
+    }
+    &_mt34 {
+        margin-top: 34px;
+    }
+    &_mt20 {
+        margin-top: 20px;
+    }
+    &_app-header {
+        margin-top: 111px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.btn {
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+    margin-top: 18px;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: transparent;
+    &:hover {
+        transition: all .3s;
+        border: 1px solid #000;
+        color: #000;
+    }
+}

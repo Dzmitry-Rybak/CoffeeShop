@@ -1,0 +1,13 @@
+.best_products {
+    h2 {
+        text-align: center;
+    }
+    background: url("../../../public/img/bestBG.jpeg") center center/cover no-repeat;
+    padding: 80px 0 110px 0;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
